@@ -598,7 +598,7 @@ footer .AccName {
     margin-bottom: 40px;
     }
 }
-@media screen and (max-width:992px) {
+@media screen and (max-width:991px) {
     .visionMessage .visionMessageContainer{
         width: 90%;
     }
