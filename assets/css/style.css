@@ -615,6 +615,9 @@ footer .AccName {
     }
 }
 @media screen and (max-width:991px) {
+    header .navContainer .logoImg img{
+    height: 60px;
+    }
     header.scrolled .navContainer .nav a{
         color: #fff;
     }
