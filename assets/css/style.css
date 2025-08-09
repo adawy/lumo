@@ -55,6 +55,9 @@ ul{
     list-style: none;
     padding: 0;
 }
+p{
+    text-align: justify;
+}
 /* header */
 header {
     position: fixed;
@@ -501,21 +504,34 @@ footer .footerContainer {
     gap: 15px;
     flex-wrap: wrap;
 }
-
+footer .socail {
+    text-align: center;
+}
 footer .socail .socailLinks {
     display: flex;
     align-items: center;
     justify-content: center !important;
-    gap: 1px;
+    gap: 20px;
     line-height: 45px;
+    margin-bottom: 24px;
 }
 footer .logo{
     margin-bottom: 40px;
     height: 80px;
     object-fit: contain;
 }
-footer .socail .socailLinks img{
-    width: 21px;
+footer .socail .socailLinks a{
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
 }
 footer .footerInfo>a {
     line-height: 24px;
@@ -599,6 +615,9 @@ footer .AccName {
     }
 }
 @media screen and (max-width:991px) {
+    header.scrolled .navContainer .nav a{
+        color: #fff;
+    }
     .visionMessage .visionMessageContainer{
         width: 90%;
     }
